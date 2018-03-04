@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #222650;
+	color: #fff;
+}
+
+
+
+img{
+	margin-top: 45px;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-content{
+	padding-top: 80px;
+}
+
+.hidden-message{
+	padding-top: 60px;
+	font-size: 18px;
+}
+
