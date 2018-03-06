@@ -16,7 +16,7 @@
 			getAnchors.attr("src",getAnchors[i].src.substr(0,getAnchors[i].src.lastIndexOf(".")) + ".webp");
 		}
 
-		if(isChrome){
+		if(isChromium){
 			$(".hidden-message").html("Your Browser is <b>Chrome</b>, script load WebP Images");		
 		}
 		else{
