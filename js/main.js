@@ -1,6 +1,6 @@
 (function () {
 
-	//Check if Browser is Chrome
+	//Check if Browser is Chrome or Opera
 
 	var isChromium = window.chrome;
 	var isOpera = window.opera;
