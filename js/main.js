@@ -3,8 +3,9 @@
 	//Check if Browser is Chrome
 
 	var isChromium = window.chrome;
+	var isOpera = window.opera;
 
-	if(isChromium){
+	if(isChromium || isOpera){
 
 
 		//Get All Imgages and replace their extension - jpg/png/gif - to new img format WebP
