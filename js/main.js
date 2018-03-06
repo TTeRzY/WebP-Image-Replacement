@@ -16,8 +16,12 @@
 			getAnchors.attr("src",getAnchors[i].src.substr(0,getAnchors[i].src.lastIndexOf(".")) + ".webp");
 		}
 
-		$(".hidden-message").html("Your Browser is <b>Chrome</b>, script load WebP Images");
-
+		if(isChrome){
+			$(".hidden-message").html("Your Browser is <b>Chrome</b>, script load WebP Images");		
+		}
+		else{
+			$(".hidden-message").html("Your Browser is <b>Opera</b>, script load WebP Images");
+		}
 	}
 	else{
 		$(".hidden-message").html("Your Browser is not <b>Chrome/Opera</b>, script load default PNG Images");
